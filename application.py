@@ -28,7 +28,7 @@ class Storage():
 
   def populate(self):
     cur = self.db.cursor()
-    cur.execute("INSERT INTO scores(score) VALUES(1234)")
+    cur.execute("INSERT INTO scores(score) VALUES(20150507)")
 
   def score(self):
     cur = self.db.cursor()
