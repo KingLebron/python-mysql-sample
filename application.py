@@ -15,10 +15,10 @@ def hello_world():
 class Storage():
   def __init__(self):
     self.db = MySQLdb.connect(      
-      user = os.getenv('MYSQL_USERNAME', 'root'),
-      passwd = os.getenv('MYSQL_PASSWORD', ''),
-      db = os.getenv('MYSQL_INSTANCE_NAME', 'daocloud'),
-      host = os.getenv('MYSQL_PORT_3306_TCP_ADDR', 'localhost'),
+      user = os.getenv('MYSQL_USERNAME', 'uljI6DvAGm1HY8fg'),
+      passwd = os.getenv('MYSQL_PASSWORD', 'pwfBTxOns6UprWiQJ'),
+      db = os.getenv('MYSQL_INSTANCE_NAME', '3S1KU7gOxPlps5aX'),
+      host = os.getenv('MYSQL_PORT_3306_TCP_ADDR', '10.10.26.58'),
       port = int(os.getenv('MYSQL_PORT_3306_TCP_PORT', '3306'))
       )
 
